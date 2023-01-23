@@ -10,7 +10,7 @@ import utilities.WindowHandler;
 
 public class TheInternetHerokuappMultipleWindowsTest extends TheInternetHerokuappBase{
     @BeforeMethod
-    public void seyPage(){
+    public void setPage(){
         theInternetHerokuappBasePage = new TheInternetHerokuappBasePage();
         theInternetHerokuappMultipleWindowsPage = new TheInternetHerokuappMultipleWindowsPage();
         theInternetHerokuappNewWindowPage = new TheInternetHerokuappNewWindowPage();
